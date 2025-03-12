@@ -21,7 +21,11 @@
 </div>; */
 }
 const innerDiv = React.createElement("div", {}, [
-  React.createElement("h1", {}, "I am konduru sai"),
+  React.createElement(
+    "h1",
+    {},
+    "I am konduru sai working in Pathbeat as a Intern"
+  ),
   React.createElement("p", {}, "I am Learning ReactJs by Akshay Saini"),
 ]);
 const outerDiv = React.createElement("div", {}, [innerDiv, innerDiv]);
