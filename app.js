@@ -28,7 +28,19 @@ const innerDiv = React.createElement("div", {}, [
   ),
   React.createElement("p", {}, "I am Learning ReactJs by Akshay Saini"),
 ]);
-const outerDiv = React.createElement("div", {}, [innerDiv, innerDiv]);
+const innerDiv1 = React.createElement("div", { key: "index-v2" }, [
+  React.createElement(
+    "h1",
+    { key: "h1-v2" },
+    "I am konduru sai working in Pathbeat as a Intern"
+  ),
+  React.createElement(
+    "p",
+    { p: "p-v2" },
+    "I am Learning ReactJs by Akshay Saini"
+  ),
+]);
+const outerDiv = React.createElement("div", {}, [innerDiv, innerDiv1]);
 
 const h1 = React.createElement(
   "h1",

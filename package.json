@@ -1,0 +1,27 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "Namaste Reactjs by Akshay Saini Learning By sai",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kondurusai2903/Namaste-React.git"
+  },
+  "keywords": [
+    "React",
+    "Javascript",
+    "parcel"
+  ],
+  "author": "kondurusai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kondurusai2903/Namaste-React/issues"
+  },
+  "homepage": "https://github.com/Kondurusai2903/Namaste-React#readme",
+  "dependencies": {
+    "parcel": "^2.13.3"
+  }
+}
